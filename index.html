@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioBlend Innovations — From Waste to Warmth</title>
+    <meta
+      name="description"
+      content="BioBlend Innovations Limited turns recovered charcoal dust into Super Malasha Fire Blocks — affordable, long-burning energy for Zambian farmers, households and small businesses."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body data-page="home">
+    <header class="">
+      <nav class="site-nav" id="siteNav">
+        <a class="brand" href="index.html"
+          ><img
+            src="images/LOGO.jpg"
+            class="logo-img"
+            style="width: 50px; border-radius: 50%"
+            alt=""
+          />
+          <span class="d-none d-md-block">BioBlend</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="index.html#home" data-nav="home"
+            ><span>Home</span><span class="u"></span
+          ></a>
+          <a href="index.html#about" data-nav="about"
+            ><span>About</span><span class="u"></span
+          ></a>
+          <a href="service.html" data-nav="service"
+            ><span>Service</span><span class="u"></span
+          ></a>
+          <a href="index.html#location" data-nav="location"
+            ><span>Location</span><span class="u"></span
+          ></a>
+        </div>
+
+        <div class="nav-cta">
+          <a
+            href="./BioBlend_Company_Profile.pdf"
+            download
+            class="btn btn-outline on-dark"
+            >Company profile</a
+          >
+          <a href="index.html#location" class="btn btn-ember">Get in touch</a>
+        </div>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="navPanel"
+        >
+          <span></span>
+        </button>
+      </nav>
+
+      <div class="nav-panel d-md-none" id="navPanel">
+        <a href="index.html#home" data-nav="home">Home</a>
+        <a href="index.html#about" data-nav="about">About</a>
+        <a href="service.html" data-nav="service">Service</a>
+        <a href="index.html#location" data-nav="location">Location</a>
+        <a href="index.html#location" class="btn btn-ember">Get in touch</a>
+      </div>
+    </header>
+
+    <!-- ===================== HERO — 3-image slide, fixed overlay ===================== -->
+    <section class="hero container-fluid" id="home" data-spy>
+      <div class="hero-slide active">
+        <div
+          class="art"
+          style="
+            background:
+              radial-gradient(
+                circle at 20% 25%,
+                rgba(31, 77, 46, 0.55),
+                transparent 55%
+              ),
+              radial-gradient(
+                circle at 75% 70%,
+                rgba(21, 18, 13, 0.65),
+                transparent 60%
+              ),
+              url(&quot;./images/broilers.jpg&quot;);
+            background-size: cover;
+            background-position: center;
+          "
+        ></div>
+      </div>
+      <div class="hero-slide">
+        <div
+          class="art"
+          style="
+            background:
+              radial-gradient(
+                circle at 30% 30%,
+                rgba(76, 168, 101, 0.4),
+                transparent 55%
+              ),
+              radial-gradient(
+                circle at 70% 75%,
+                rgba(21, 18, 13, 0.7),
+                transparent 60%
+              ),
+              url(&quot;./images/fireblock-portrait.jpg&quot;);
+            background-size: cover;
+            background-position: top center;
+          "
+        ></div>
+      </div>
+      <div class="hero-slide">
+        <div
+          class="art"
+          style="
+            background:
+              radial-gradient(
+                circle at 50% 85%,
+                rgba(47, 122, 69, 0.5),
+                transparent 55%
+              ),
+              radial-gradient(
+                circle at 25% 15%,
+                rgba(21, 18, 13, 0.4),
+                transparent 50%
+              ),
+              url(&quot;./images/natural-compost.jpg&quot;);
+            background-size: cover;
+            background-position: center;
+          "
+        ></div>
+      </div>
+
+      <div class="hero-content">
+        <span class="eyebrow">Kabulonga, Lusaka · Zambia</span>
+        <h1 class="hero-word">BioBlend</h1>
+        <p class="hero-tagline">
+          From waste to warmth — affordable, long-burning fire blocks made from
+          recovered charcoal dust, powering farmers, homes and small businesses.
+        </p>
+        <div class="hero-actions">
+          <a href="index.html#service" class="btn btn-ember">
+            Explore our fire blocks
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </a>
+          <a href="about.html" class="btn btn-outline on-dark d-none"
+            >Our story</a
+          >
+        </div>
+      </div>
+
+      <div class="hero-dots">
+        <button class="active" aria-label="Slide 1"></button>
+        <button aria-label="Slide 2"></button>
+        <button aria-label="Slide 3"></button>
+      </div>
+      <div class="scroll-cue">
+        <span>Scroll</span><span class="line"></span>
+      </div>
+    </section>
+
+    <!-- ===================== 1. ABOUT (snapshot) ===================== -->
+    <section class="on-parchment" id="about" data-spy>
+      <div class="wrap">
+        <div class="snap-grid">
+          <div class="snap-copy reveal-left">
+            <span class="eyebrow">Who we are</span>
+            <h2 style="margin-top: 0.6rem">
+              A Zambian circular economy manufacturer, built from waste.
+            </h2>
+            <p class="lead-line" style="margin-top: 1.25rem">
+              BioBlend Innovations Limited is a Zambian circular economy and
+              waste-to-value manufacturing enterprise based in Kabulonga,
+              Lusaka.
+            </p>
+            <p>
+              Established in 2023 and led by Founder &amp; CEO Jonathan Lungu,
+              we transform recovered charcoal dust and locally available inputs
+              into practical, affordable and sustainable products for farmers,
+              households and small businesses.
+            </p>
+            <div class="mv-grid">
+              <div class="mv-card reveal-scale">
+                <h4>Mission</h4>
+                <p>
+                  To transform locally available waste materials and
+                  agricultural by-products into affordable, practical and
+                  sustainable solutions.
+                </p>
+              </div>
+              <div class="mv-card moss reveal-scale">
+                <h4>Vision</h4>
+                <p>
+                  To become a leading Zambian circular economy manufacturer
+                  supporting agriculture, reducing waste, creating jobs and
+                  improving livelihoods.
+                </p>
+              </div>
+            </div>
+            <div class="value-chips stagger">
+              <span>Sustainability</span>
+              <span>Affordability</span>
+              <span>Innovation</span>
+              <span>Local Manufacturing</span>
+              <span>Farmer Support</span>
+              <span>Job Creation</span>
+              <span>Community Impact</span>
+            </div>
+            <a
+              href="about.html"
+              class="btn btn-outline d-none"
+              style="margin-top: 2rem"
+            >
+              Read our full company profile
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="reveal-right">
+            <div class="stat-grid">
+              <div class="stat-card">
+                <span class="num" data-count="2023" data-suffix="">0</span
+                ><span class="label">Operations started</span>
+              </div>
+              <div class="stat-card">
+                <span class="num" data-count="50000" data-suffix="+">0</span
+                ><span class="label">Fire blocks sold</span>
+              </div>
+              <div class="stat-card">
+                <span class="num" data-count="1000" data-suffix="+">0</span
+                ><span class="label">Customers reached</span>
+              </div>
+              <div class="stat-card">
+                <span class="num" data-count="8" data-suffix="">0</span
+                ><span class="label">Direct jobs created</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. SERVICE (flagship product) ===================== -->
+    <section class="on-clay" id="service" data-spy>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">What we make</span>
+          <h2>Super Malasha Fire Blocks</h2>
+          <p>
+            Long-burning charcoal briquettes made from recovered charcoal dust,
+            clay, spent wash or molasses, and water — built for real Zambian
+            kitchens, brooders and braai stands.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <div class="product-visual reveal-scale">
+            <svg
+              width="100%"
+              height="100%"
+              viewBox="0 0 400 500"
+              preserveAspectRatio="xMidYMid slice"
+              class="d-none"
+            >
+              <rect width="400" height="500" fill="#1d1811" />
+              <radialGradient id="pg" cx="30%" cy="20%" r="70%">
+                <stop offset="0%" stop-color="#2f7a45" stop-opacity="0.55" />
+                <stop offset="100%" stop-color="#1d1811" stop-opacity="0" />
+              </radialGradient>
+              <rect width="400" height="500" fill="url(#pg)" />
+              <g opacity="0.95">
+                <rect
+                  x="90"
+                  y="260"
+                  width="90"
+                  height="55"
+                  rx="6"
+                  fill="#453a2b"
+                />
+                <rect
+                  x="190"
+                  y="245"
+                  width="90"
+                  height="55"
+                  rx="6"
+                  fill="#2b2319"
+                />
+                <rect
+                  x="130"
+                  y="200"
+                  width="90"
+                  height="55"
+                  rx="6"
+                  fill="#c99b6a"
+                />
+                <rect
+                  x="110"
+                  y="315"
+                  width="90"
+                  height="55"
+                  rx="6"
+                  fill="#2b2319"
+                />
+                <rect
+                  x="205"
+                  y="305"
+                  width="90"
+                  height="55"
+                  rx="6"
+                  fill="#453a2b"
+                />
+              </g>
+            </svg>
+            <img
+              src="images/fireblock-portrait.jpg"
+              style="width: 100%; height: 100%; object-fit: cover"
+              alt=""
+            />
+            <div class="price-badge">
+              <div>
+                <span
+                  style="
+                    font-family: var(--font-mono);
+                    font-size: 0.72rem;
+                    color: var(--ash-300);
+                    text-transform: uppercase;
+                    letter-spacing: 0.08em;
+                  "
+                  >Super Malasha</span
+                >
+                <div class="p">Fire Blocks<small>Burns 6–12 hours</small></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal-right">
+            <ul class="benefit-list stagger">
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M8 12l3 3 5-6" /></svg
+                >Burns approximately 6 to 12 hours per block
+              </li>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M8 12l3 3 5-6" /></svg
+                >Affordable alternative to ordinary charcoal
+              </li>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M8 12l3 3 5-6" /></svg
+                >Supports poultry brooder management
+              </li>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M8 12l3 3 5-6" /></svg
+                >Made from recovered charcoal dust, locally manufactured in
+                Zambia
+              </li>
+            </ul>
+
+            <div class="market-row">
+              <span>Poultry farmers &amp; agri-shops</span>
+              <span>Households &amp; food vendors</span>
+              <span>Braai stands &amp; small restaurants</span>
+            </div>
+
+            <div class="price-table">
+              <div class="cell">
+                <div class="amt">K20</div>
+                <div class="cond">per block</div>
+              </div>
+              <div class="cell">
+                <div class="amt">K15</div>
+                <div class="cond">per block, for 100+ units</div>
+              </div>
+            </div>
+
+            <a
+              href="service.html"
+              class="btn btn-ember"
+              style="margin-top: 2rem"
+            >
+              See the full product &amp; process
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. ABOUT US (people & impact) ===================== -->
+    <section class="on-dark" id="people" data-spy>
+      <div class="wrap">
+        <div class="founder-grid">
+          <div class="founder-portrait reveal-scale">
+            <img
+              src="./images/founder-profile.jpg"
+              alt="Jonathan Lungu, Founder & CEO of BioBlend Innovations Limited"
+            />
+          </div>
+          <div class="reveal-right">
+            <span class="eyebrow" style="color: var(--ember-400)"
+              >Founder profile</span
+            >
+            <p class="founder-quote" style="margin-top: 1rem">
+              From waste to warmth — a founder-led mission to create affordable
+              energy, support farmers and create jobs.
+            </p>
+            <div class="founder-role">
+              JONATHAN LUNGU · FOUNDER &amp; CEO, BIOBLEND INNOVATIONS LIMITED
+            </div>
+            <p style="margin-top: 1.25rem; color: var(--parchment-100)">
+              At 29, Jonathan represents a new generation of Zambian
+              entrepreneurs focused on practical innovation, circular economy
+              solutions, local manufacturing and community impact — leading
+              BioBlend from an early idea into an operating business with proven
+              traction.
+            </p>
+            <ul class="founder-focus stagger">
+              <li>Renewable and alternative energy</li>
+              <li>Agriculture and farmer support</li>
+              <li>Waste-to-value manufacturing</li>
+              <li>Youth employment and green jobs</li>
+              <li>Market access and local value addition</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="op-strip stagger" style="margin-top: 4.5rem">
+          <div class="cell">
+            <span class="num" data-count="50000" data-suffix="+">0</span>
+            <div class="lbl">Fire blocks sold</div>
+          </div>
+          <div class="cell">
+            <span class="num" data-count="1000" data-suffix="+">0</span>
+            <div class="lbl">Customers reached</div>
+          </div>
+          <div class="cell">
+            <span class="num" data-count="8">0</span>
+            <div class="lbl">Jobs created</div>
+          </div>
+          <div class="cell">
+            <span class="num" data-count="3">0</span>
+            <div class="lbl">Youth employed</div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem" class="reveal ">
+          <a href="BioBlend_Company_Profile.pdf" class="btn btn-outline on-dark"
+            >Company Profile</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. LOCATION ===================== -->
+    <section class="on-parchment" id="location" data-spy>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Find us</span>
+          <h2>Visit or reach out</h2>
+          <p>
+            We're based in Kabulonga, Lusaka — come see the fire blocks being
+            made, or get in touch to talk stock, partnerships or bulk orders.
+          </p>
+        </div>
+
+        <div class="loc-grid">
+          <div class="loc-card reveal-left">
+            <div class="loc-item">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 21s7-6.5 7-11a7 7 0 10-14 0c0 4.5 7 11 7 11z" />
+                <circle cx="12" cy="10" r="2.5" />
+              </svg>
+              <div>
+                <div class="t">Address</div>
+                <div class="v">
+                  Plot 377A/A/1/2, Corner of Bishops &amp; Kudu Roads,
+                  Kabulonga, Lusaka, Zambia
+                </div>
+              </div>
+            </div>
+            <div class="loc-item">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"
+                />
+              </svg>
+              <div>
+                <div class="t">Phone</div>
+                <div class="v">
+                  <a href="tel:+260777091270">0777 091 270</a>
+                </div>
+              </div>
+            </div>
+            <div class="loc-item">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M4 4h16v16H4z" stroke="none" />
+                <path d="M22 6l-10 7L2 6" />
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+              </svg>
+              <div>
+                <div class="t">Email</div>
+                <div class="v">
+                  <a href="mailto:bioblendinnovationslimited@gmail.com"
+                    >bioblendinnovationslimited@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a
+              href="mailto:bioblendinnovations@gmail.com"
+              class="btn btn-ember"
+              style="align-self: flex-start; margin-top: 0.5rem"
+              >Send us a message</a
+            >
+          </div>
+
+          <div class="map-frame reveal-right">
+            <iframe
+              title="BioBlend Innovations location map"
+              src="https://www.google.com/maps?q=Kabulonga,+Lusaka,+Zambia&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-top">
+          <div class="footer-brand">
+             <img
+            src="images/LOGO.jpg"
+            class="logo-img"
+            style="width: 50px; border-radius: 50%"
+            alt=""
+          />
+            BioBlend Innovations
+          </div>
+          <div class="footer-links">
+            <div>
+              <h5>Explore</h5>
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="service.html">Service</a>
+            </div>
+            <div>
+              <h5>Contact</h5>
+              <a href="tel:+260777091270">0777 091 270</a>
+              <a href="mailto:bioblendinnovationslimited@gmail.com"
+                >bioblendinnovationslimited@gmail.com</a
+              >
+            </div>
+            <div>
+              <h5>Visit</h5>
+              <a href="index.html#location">Kabulonga, Lusaka, Zambia</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span data-year></span> BioBlend Innovations Limited</span>
+          <span>From Waste to Warmth, Powering Livelihoods.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </body>
+</html>
